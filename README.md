@@ -2,13 +2,12 @@
 
 ## <center>Three Billboards</center>
 
-<center>**Huiwen Luo (hl3111), Rui Zhang (rz2406), Lujia Wang (lw2772)**</center>
+**Huiwen Luo (hl3111), Rui Zhang (rz2406), Lujia Wang (lw2772)**
 
-[TOC]
 
 ### CNN Introduction
 
-Convolution neural network is used for image recognition. The convolution step is used to  extract features from the input images. We slide the filter matrix over the original image and on each position do element wise multiplication of the two matrices. Then we add up the answers to get an single element of the output matrix. In the pooling step, large images are shrunk down but the most important information is preserved. Max pooling, a most widely used pooling method, is basically stepping a window across an image and catching the largest number in the window in each step. A pooling layer will give same number of output images as before but with fewer pixels, which also help reduce computational load. After we get the output images containing high level features from applying convolution layer and pooling layer, we use dense layer to determine those features we extracted are most correlated to a particular class. The output will be a vector indicating which class the image should be in.
+Convolutional neural network is used for image recognition. The convolution step is used to  extract features from the input images. We slide the filter matrix over the original image and on each position do element wise multiplication of the two matrices. Then we add up the answers to get an single element of the output matrix. In the pooling step, large images are shrunk down but the most important information is preserved. Max pooling, a most widely used pooling method, is basically stepping a window across an image and catching the largest number in the window in each step. A pooling layer will give same number of output images as before but with fewer pixels, which also help reduce computational load. After we get the output images containing high level features from applying convolution layer and pooling layer, we use dense layer to determine those features we extracted are most correlated to a particular class. The output will be a vector indicating which class the image should be in.
 
 
 
